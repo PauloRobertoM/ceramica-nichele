@@ -3,9 +3,8 @@
         loop: true,
         autoplay: true,
         margin: 0,
-        nav: true,
-        navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-        dots: false,
+        nav: false,
+        dots: true,
 
         responsive:{
             0:{

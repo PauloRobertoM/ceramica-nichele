@@ -20,24 +20,31 @@
         <div class="nav menu">
             <nav class="navbar navbar-default" id="meuMenu">
                 <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.php"><img class="logo" src="assets/images/logo-ceramica-nichele.png" alt="Logo" /></a>
-                    </div><!-- .navbar-header -->
+                    <div>
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.php"><img class="logo" src="assets/images/logo-ceramica-nichele.png" alt="Logo" /></a>
+                        </div><!-- .navbar-header -->
 
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li><a class="perfil" href="#perfil">Home</a></li>
-                            <li><a class="consultoria" href="#consultoria">Empresa</a></li>
-                            <li><a class="area" href="#area">Produtos</a></li>
-                            <li><a class="contato" href="#contato">Contato</a></li>
-                        </ul><!-- .nav -->
-                    </div><!-- .navbar-collapse -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a class="perfil" href="#perfil">Home</a></li>
+                                <li><a class="consultoria" href="#consultoria">Empresa</a></li>
+                                <li><a class="area" href="#area">Produtos</a></li>
+                                <li><a class="contato" href="#contato">Contato</a></li>
+                            </ul><!-- .nav -->
+                        </div><!-- .navbar-collapse -->
+
+                        <div class="telefones">
+                            <span><i class="fa fa-phone" aria-hidden="true"></i> 41 3348.8982</span>
+                            <span><i class="fa fa-whatsapp" aria-hidden="true"></i> 41 99133.1971</span>
+                        </div><!-- telefones -->
+                    </div>
                 </div><!-- container -->
             </nav><!-- .navbar -->
         </div><!-- .nav -->

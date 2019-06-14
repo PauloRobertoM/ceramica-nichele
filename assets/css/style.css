@@ -25,48 +25,289 @@ body {
     width: 100%;
 }
 
+/* GERAL */
+.btn-azul {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #151544;
+    padding: 10px 40px;
+    border-radius: 50px;
+    display: table;
+}
+.btn-azul:hover {
+    color: #fff;
+    background: #000;
+}
+.btn-laranja {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #ef7311;
+    padding: 10px 40px;
+    border-radius: 50px;
+    display: table;
+}
+.btn-laranja:hover {
+    color: #fff;
+    background: #151544;
+}
+
+/* MENU */
 .navbar-default {
     background: #ffffff;
     border-color: transparent;
-    height: 110px;
+    height: 100px;
     border-radius: 0;
     margin-bottom: 0px;
     border: none;
 }
 .navbar-header .navbar-brand {
-    height: 110px;
+    height: 100px;
     display: flex;
     align-items: center;
-}
-.navbar-brand {
     margin: 0;
     padding: 0;
 }
-.logo-branca {
-    display: none!important;
-}
 #bs-example-navbar-collapse-1 {
     float: right;
-    height: 110px;
+    height: 100px;
     padding: 0;
 }
 .navbar-header img {
     margin-left: 15px;
 }
+.nav .container>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 ul.nav {
-    height: 110px;
+    height: 100px;
     display: flex;
     align-items: center;
 }
+ul.nav>li {
+    margin-top: 5px;
+}
+ul.nav>li:after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background: #a9978d;
+    border-radius: 50px;
+    display: block;
+    top: -13px;
+    position: relative;
+    left: -1px;
+}
+ul.nav>li:first-child:after {
+    display: none;
+}
 ul.nav>li>a {
-    font-size: 14px;
-    color: #535353!important;
+    font-size: 16px;
+    color: #a64e20!important;
     text-transform: uppercase;
-    padding: 10px 5px;
+    padding: 0 15px;
 }
 ul.nav>li>a:hover {
-    font-weight: 700;
-    color: #eb754b!important;
+    font-weight: bold;
+}
+.telefones {
+    background: #151544;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.telefones span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 10px;
+}
+.telefones .fa {
+    font-size: 20px;
+    color: #ffcc51;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    margin-top: -20px;
+}
+.owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+}
+.owl-dots .owl-dot span {
+    width: 30px;
+    height: 4px;
+    margin: 5px;
+    background: #fff;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 50px;
+}
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+    background: #ffcc51;
+}
+
+.produtos {
+    border-top: 200px solid #ef7311;
+}
+.produtos h1 {
+    font-size: 26px;
+    color: #ffcc51;
+    text-align: center;
+    letter-spacing: 15px;
+    margin-top: -160px;
+}
+.produtos h1:after {
+    content: "";
+    width: 210px;
+    height: 4px;
+    display: block;
+    background: #fff;
+    border-radius: 50px;
+    margin: 15px auto 0;
+}
+.produtos ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0;
+}
+.produtos img {
+    display: table;
+    margin: 0 auto;
+    transition: 1s;
+}
+.produtos h4 {
+    font-size: 20px;
+    color: #151544;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    transition: 1s;
+}
+.produtos a:hover img {
+    transform: scale(1.1);
+}
+.produtos a:hover h4 {
+    font-weight: bold;
+    color: #a64e20;
+    border-bottom: 4px solid #a64e20;
+}
+.produtos .btn-azul {
+    margin: 50px auto;
+}
+
+.vantagens {
+    background: url("../images/bg-vantagens.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+.vantagens .container>div {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vantagens .item {
+    text-align: center;
+}
+.vantagens h4 {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+}
+
+.sobre {
+    padding: 60px 0;
+}
+.sobre h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #151544;
+    width: 100%;
+    max-width: 710px;
+    margin: 0 auto;
+}
+.sobre h2 span {
+    color: #ef7311;
+}
+.sobre .btn-laranja {
+    margin: 30px auto 0;
+}
+
+footer {
+    background: #151544;
+    padding: 80px 0;
+}
+footer .container>div {
+    display: flex;
+    justify-content: space-between;
+}
+footer h4 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+footer .redes-sociais {
+    display: flex;
+    margin: 0;
+}
+footer .redes-sociais>li>a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #ffcc51;
+    margin-right: 15px;
+}
+footer .redes-sociais>li>a:hover {
+    background: #ef7311;
+}
+footer .redes-sociais>li .fa {
+    font-size: 20px;
+    color: #151544;
+}
+footer p {
+    font-size: 15px;
+    color: #fff;
+    margin: 20px 0 0;
+}
+footer p span {
+    font-weight: bold;
+}
+footer h5 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffcc51;
+    margin: 0;
+}
+footer .menu-bottom>li {
+    color: #ffcc51;
+    margin-bottom: 5px;
+    list-style: initial;
+    list-style-position: inside;
+}
+footer .menu-bottom>li>a {
+    font-size: 15px;
+    color: #fff;
+}
+footer .menu-bottom>li>a:hover {
+    color: #ffcc51;
 }
 
 /* --- MOBILE --- */
@@ -114,7 +355,23 @@ ul.nav>li>a:hover {
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    
+    .navbar-header img {
+        width: 150px;
+    }
+    ul.nav>li>a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .telefones {
+        padding: 10px;
+    }
+    .telefones span {
+        font-size: 11px;
+        margin: 0 5px;
+    }
+    .telefones .fa {
+        font-size: 14px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     
