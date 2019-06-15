@@ -53,7 +53,7 @@
 		</div><!-- container -->
 	</section><!-- produtos -->
 
-	<?php include 'components/vantagens.php'; ?>	
+	<?php include 'components/vantagens.php'; ?>
 	
 	<section class="sobre">
 		<div class="container">

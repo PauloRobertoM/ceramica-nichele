@@ -310,6 +310,62 @@ footer .menu-bottom>li>a:hover {
     color: #ffcc51;
 }
 
+.topo-interna.empresa {
+    background: url(../images/bg-empresa.jpg) no-repeat;
+}
+.topo-interna.produtos-int {
+    background: url(../images/bg-produtos.jpg) no-repeat;
+}
+.topo-interna {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topo-interna h1 {
+    font-size: 26px;
+    color: #fff;
+    letter-spacing: 15px;
+    margin: 0;
+}
+.topo-interna h1:after {
+    content: "";
+    width: 210px;
+    height: 4px;
+    display: block;
+    background: #ffcc51;
+    border-radius: 50px;
+    margin: 15px auto 0;
+}
+
+.interna {
+    padding: 80px 0;
+}
+.interna p {
+    font-size: 16px;
+    color: #2d2d2d;
+    text-align: justify;
+    margin: 0 0 15px
+}
+
+.empresa h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #151544;
+    width: 100%;
+    max-width: 710px;
+    margin: 0 auto 50px;
+}
+.empresa h2 span {
+    color: #ef7311;
+}
+.empresa .btn-azul {
+    text-align: center;
+    margin: 40px auto 0;
+}
+
 /* --- MOBILE --- */
 @media (max-width: 767px) {
     .nav .container>div {
