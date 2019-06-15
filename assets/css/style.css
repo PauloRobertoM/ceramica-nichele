@@ -312,6 +312,12 @@ footer .menu-bottom>li>a:hover {
 
 /* --- MOBILE --- */
 @media (max-width: 767px) {
+    .nav .container>div {
+        display: block;
+    }
+    .navbar-default {
+        height: 130px;
+    }
     #bs-example-navbar-collapse-1 {
         float: none;
         background: #fff;
@@ -322,14 +328,16 @@ footer .menu-bottom>li>a:hover {
         padding: 10px 30px;
         width: 100%;
         margin: 0 auto;
-        top: -30px;
+        top: -19px;
     }
     .navbar-toggle {
-        padding: 15px 15px;
-        margin-top: 30px;
+        padding: 15px;
+        margin-top: 15px;
+        margin-right: 0;
     }
-    .navbar-header {
-        height: 90px;
+    .navbar-header,
+    .navbar-header .navbar-brand {
+        height: 80px;
     }
     #menu ul.nav.navbar-nav {
         float: none;
@@ -338,6 +346,9 @@ footer .menu-bottom>li>a:hover {
     }
     #menu ul.nav.navbar-nav>li {
         margin-bottom: 20px;
+    }
+    ul.nav>li:after {
+        display: none;
     }
     .navbar-nav {
         width: 100%;
@@ -351,7 +362,60 @@ footer .menu-bottom>li>a:hover {
         padding: 15px 10px!important;
     }
     .navbar-brand .logo {
-        width: 200px;
+        width: 150px;
+        margin-left: 0;
+    }
+    .telefones {
+        padding: 8px 15px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .telefones span {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    .telefones .fa {
+        font-size: 18px;
+        margin-right: 0px;
+    }
+    .vitrine img {
+        height: 140px;
+        object-fit: cover;
+    }
+    .vitrine .owl-dots {
+        display: none;
+    }
+    .produtos ul {
+        display: block;
+    }
+    .produtos ul>li {
+        margin-bottom: 30px;
+    }
+    .sobre .btn-laranja,
+    .produtos .btn-azul {
+        text-align: center;
+    }
+    .vantagens {
+        padding: 30px 0;
+        height: auto;
+    }
+    .vantagens .container>div {
+        height: auto;
+        display: block;
+    }
+    .vantagens .item {
+        margin-bottom: 30px;
+    }
+    footer .container>div {
+        display: block;
+        text-align: center;
+    }
+    footer .item {
+        margin-bottom: 40px;
+    }
+    footer .redes-sociais {
+        justify-content: center;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
