@@ -10,21 +10,11 @@
 				<div class="col-md-3 col-sm-3">
 					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading0">
+                            <div class="panel-heading" id="active">
                                 <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" class="accordion-toggle collapsed" data-parent="#accordion" href="#collapse0" aria-expanded="false" aria-controls="collapse0">TIJOLOS</a>
+                                    <a class="accordion-toggle collapsed" href="">TIJOLOS</a>
                                 </h4>
                             </div><!-- panel-heading -->
-                            <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
-                                <div class="panel-body">
-                                    <ul>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    </ul>
-                                </div><!-- panel-body -->
-                            </div><!-- collapseOne -->
                             <div class="panel-heading" role="tab" id="heading0">
                                 <h4 class="panel-title">
                                     <a role="button" data-toggle="collapse" class="accordion-toggle collapsed" data-parent="#accordion" href="#collapse0" aria-expanded="false" aria-controls="collapse0">BLOCOS</a>
@@ -40,51 +30,21 @@
                                     </ul>
                                 </div><!-- panel-body -->
                             </div><!-- collapseOne -->
-                            <div class="panel-heading" role="tab" id="heading0">
+                            <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" class="accordion-toggle collapsed" data-parent="#accordion" href="#collapse0" aria-expanded="false" aria-controls="collapse0">CANALETAS</a>
+                                    <a class="accordion-toggle collapsed" href="">CANALETAS</a>
                                 </h4>
                             </div><!-- panel-heading -->
-                            <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
-                                <div class="panel-body">
-                                    <ul>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    </ul>
-                                </div><!-- panel-body -->
-                            </div><!-- collapseOne -->
-                            <div class="panel-heading" role="tab" id="heading0">
+                            <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" class="accordion-toggle collapsed" data-parent="#accordion" href="#collapse0" aria-expanded="false" aria-controls="collapse0">LAJOTAS</a>
+                                    <a class="accordion-toggle collapsed" href="">LAJOTAS</a>
                                 </h4>
                             </div><!-- panel-heading -->
-                            <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
-                                <div class="panel-body">
-                                    <ul>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    </ul>
-                                </div><!-- panel-body -->
-                            </div><!-- collapseOne -->
-                            <div class="panel-heading" role="tab" id="heading0">
+                            <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" class="accordion-toggle collapsed" data-parent="#accordion" href="#collapse0" aria-expanded="false" aria-controls="collapse0">MINIATURAS</a>
+                                    <a class="accordion-toggle collapsed" href="">MINIATURAS</a>
                                 </h4>
                             </div><!-- panel-heading -->
-                            <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
-                                <div class="panel-body">
-                                    <ul>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    	<li><a href="">9 X 14 X 19</a></li>
-                                    </ul>
-                                </div><!-- panel-body -->
-                            </div><!-- collapseOne -->
                         </div><!-- panel -->
                     </div><!-- panel-group -->
 				</div><!-- md-3 -->

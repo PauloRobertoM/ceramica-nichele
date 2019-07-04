@@ -510,6 +510,9 @@ footer .menu-bottom>li>a:hover {
     text-align: center;
     margin: 0;
 }
+.produtos-int #active .accordion-toggle {
+    background: #ef7311!important;
+}
 
 .contato input {
     font-size: 15px;
